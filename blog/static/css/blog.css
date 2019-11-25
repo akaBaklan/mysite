@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: helvetica, sans-serif;
+    background: #e7ebf0;
+}
+
+a {
+    color: #499dd9;
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: normal;
+    border-bottom: 1px solid #bbb;
+    padding: 0 0 10px 0;
+}
+
+h2 {
+    font-weight: normal;
+    margin: 30px 0 0;
+}
+
+.header {
+    position: fixed;
+    left: 10%;
+    right: 10%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.content-wrapper {
+    float: right;
+    width: 70%;
+    padding: 0 30px 0 0;
+    background: #ffffff;
+    border: #e7ebf0;
+}
+
+.content {
+    padding: 30px;
+}
+
+#sidebar {
+    float: left;
+    position: fixed;
+    width: 20%;
+    margin-top: 48px;
+    padding: 10px;
+    background: #ffffff;
+    height: 89%;
+    border: #e7ebf0;
+}
+
+.logo {
+    background: #5682a3;
+    height: 48px;
+    color: white;
+    position: fixed;
+    left: 10%;
+    right: 10%;
+}
+
+.logo a {
+    color: white;
+    font-size: 26px;
+    padding-left: 30px;
+    padding-top: 8px;
+    display: block;
+}
+
+.logo h2 {
+    padding: 0;
+}
+
+.info {
+    color: #5682a3;
+    font-family: georgia, serif;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.pagination {
+    margin: 40px 0;
+    font-weight: bold;
+}
+
+label {
+    float: left;
+    clear: both;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+input, textarea {
+    clear: both;
+    float: left;
+    margin: 0 0 10px;
+    background: #ededed;
+    border: 0;
+    padding: 6px 10px;
+    font-size: 12px;
+}
+
+input[type=submit] {
+    font-weight: bold;
+    background: #499dd9;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.errorlist {
+    color: #cc0033;
+    float: left;
+    clear: both;
+    padding-left: 10px;
+}
+
+.commentlist {
+    border: 10px #e7ebf0;
+}
+
+.comment {
+    padding: 10px;
+}
+
+.comment:nth-child(even) {
+    background: #efefef;
+}
+
+.tag {
+    background: #499dd9;
+    padding: 3px;
+    color: white;
+}
+
+.post {
+    border-bottom: 1px solid #5682a3;
+}
